@@ -87,6 +87,7 @@ Table A(Student, Member, User, People)      Table B(Order, Delivery)
 
 COLUMN(열, 속성, 필드)
 ROW(행, 레코드, 튜플)
+
 PRIMARY KEY(PK)
    고유한 값.
    각 행의 구분점으로 사용된다.
@@ -133,7 +134,7 @@ SQL문 (쿼리문) - DDL, DML, DCL, TCL
 	- 컬럼명 변경 : RENAME COLUMN [기존 컬럼명] TO [새로운 컬럼명]
 	- 컬럼 삭제 : DROP COLUMN [기존 컬럼명]
 	- 컬럼 수정 : MODIFY([기존 컬럼명] [자료형(용량)])
-
+	
 	4. TRUNCATE : 테이블 내용 전체 삭제 
 		TRUNCATE TABLE [테이블명]
 

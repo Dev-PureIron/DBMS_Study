@@ -83,6 +83,7 @@ CREATE TABLE TBL_STUDENT(
 
 DROP TABLE TBL_STUDENT;
 
+/*수정*/
 /*학생 아이디는 NULL을 허용하지 않는다. NOT NULL 제약 조건은 추가가 아닌 수정으로 한다.*/
 ALTER TABLE TBL_STUDENT MODIFY STUDENT_IDENTIFICATION CONSTRAINT REQUIER_IDENTIFICATION NOT NULL;
 /*제약조건의 이름을 설정하지 않으면 시스템 이름으로 설정되기 때문에 지우고 다시 이름을 붙여주는 것이 좋다.*/
