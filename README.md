@@ -170,8 +170,11 @@ SQL문 (쿼리문) - DDL, DML, DCL, TCL
 4. 물리적 설계 (물리 모델링)
 TBL_MEMBER		주문		상품
 -------------------------
+
 MEMBER_ID : NUMBER PK_MEMBER 
+
 -------------------------
+
 MEMBER_IDENTIFICATION : VARCHAR2 NOT NULL UNIQUE
 MEMBER_PASSWORD : VARCHAR2 NOT NULL
 MEMBER_NAME : VARCHAR2 NOT NULL
